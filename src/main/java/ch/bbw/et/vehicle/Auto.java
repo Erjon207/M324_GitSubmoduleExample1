@@ -14,6 +14,10 @@ public class Auto {
 
     public Auto() {}
 
+    public void drive() {
+        System.out.println("Driving " + name + " from " + driver.getName());
+    }
+
     public String getName() {
         return name;
     }
